@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: solid #dce3f9 1.5em;
+  font-family: sans-serif;
+  position: sticky;
+}
+nav {
+  height: 80px;
+  width: 100%;
+  background:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  position: sticky;
+  top: 15px;
+}
+.logo {
+  text-transform: capitalize;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 30px;
+  padding: 10px;
+}
+
+nav li {
+  padding: 0 3em;
+  }
+.navigation{
+  text-transform: uppercase;
+  font-size: .7em;
+  font-weight: bold;
+}
+.hero {
+  height: 90vh;
+  background: #dce3f9;
+  display: flex;
+  margin: 1.5em 0 0 5em;
+  align-items: center;
+  }
+.hero-text {
+  width: 500px;
+  margin: 18em 60em 30em 18em;
+}
+h1 {
+  font-size: 4em;
+}
+.hero-text button {
+  background: #f70048;
+  height: 4em;
+  width: 12em;
+  border-radius: 2.5em;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em
+  }
+  .image {
+    width: 15em;
+    height: 15em;
+    background:grey;
+    display: flex;
+  
+  }
+  .owl-text {
+    height: 50vh;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 5em;
+  }
+
+  .clients ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 0 18em;
+    list-style: none;
+  }
+
+  .clients {
+
+  }
