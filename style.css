@@ -2,8 +2,15 @@ body{
   margin: 0;
   padding: 0;
   border: solid #dce3f9 1.5em;
-  font-family: sans-serif;
+}
+.side {
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
   position: sticky;
+  top: 40em;
 }
 nav {
   height: 80px;
@@ -99,5 +106,74 @@ h1 {
 .library {
   height: 10em;
   width: 10em;
-  background: whitesmoke;
+  background: rgb(165, 64, 64);
+}
+.bookSection h2 {
+  font-size: 2.3em;
+}
+.second {
+  font-size: 1.3em;
+}
+.page3 {
+  display: flex;
+}
+.leftElement {
+  background: aquamarine;
+  height: 80vh;
+  width: 30em;
+  margin: 0 8em;
+}
+.littleBox {
+  background: white;
+  height: 4em;
+  width: 4em;
+  display: flex;
+  margin: 5em;
+}
+.leftElement h2 {
+  color: white;
+  font-size: 2.5em;
+  padding: none;
+  margin: none;
+}
+.sprintImage {
+  background: pink;
+  height: 28vh;
+  width: 30em;
+  display: flex;
+  align-items: flex-end;
+  margin: none;
+  padding: none;
+}
+.rightElement {
+  height: 80vh;
+  width: 35em;
+}
+.rightElement h1 {
+
+}
+.author {
+  color: lightgray;
+}
+.paragraph {
+  font-size: 1.3em;
+}
+.rightElement button {
+  height: 3em;
+  width: 9em;
+  background: teal;
+  border-radius: 2em;
+}
+.page4{
+
+}
+.left {
+  background: red;
+  width: 25vw;
+  height: 50%;
+}
+.objetA {
+  height: 4em;
+  width: 4em;
+  background: white;
 }
